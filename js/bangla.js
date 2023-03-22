@@ -33,11 +33,11 @@ const img=[
 function qusAndAnsArray (){
     const storeQusAndAns =[
         {
-            question:'What is dom ', 
-            answer1:`The HTML DOM <span class="text-lg font-semibold">Document Object Model</span> When a web page is loaded, the browser creates a Document Object Model of the page. <br /> <img class="my-2" src="${img[0]}" alt="Document Object Model" title="Document Object Model" /> <br /> The DOM is a W3C (World Wide Web Consortium) standard.
-            The DOM defines a standard for accessing documents: <br />
+            question:'Dom কি ', 
+            answer1:`HTML DOM <span class="text-lg font-semibold">ডকুমেন্ট অবজেক্ট মডেল </span>যখন একটি ওয়েব পেজ লোড করা হয়, ব্রাউজারটি পেজের একটি ডকুমেন্ট অবজেক্ট মডেল তৈরি করে। <br /> <img class="my-2" src="${img[0]}" alt="Document Object Model" title="Document Object Model" /> <br /> DOM হল একটি W3C (ওয়ার্ল্ড ওয়াইড ওয়েব কনসোর্টিয়াম) স্ট্যান্ডার্ড।
+            DOM document অ্যাক্সেস করার জন্য একটি মান নির্ধারণ করে: <br />
             "The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document." <br />
-            With the object model JavaScript gets all the power it needs to create and update dynamic HTML change the style and many power full event. like this: <br />
+            ডকুমেন্ট অবজেক্ট মডেলের মাধমে জাভাস্ক্রিপ্ট HTML এর সকল কিছু পরিবর্তন করার ক্ষমতা পেয়েথাকে কিছু মেথর্ড এবং প্রোপাটির মাধ্যমে যেমন: <br />
             <div class="my-5">
                 <h1 class="font-semibold">Method</h1>
                 <li>document.getElementById(id)	</li>
@@ -58,7 +58,7 @@ function qusAndAnsArray (){
                 <li>element.cookie	</li>
                 <li>element.URL	</li>
             </div>
-            The W3C DOM standard is separated into 3 different parts: <br />
+            W3C DOM এর স্ট্যান্ডার্ড 3টি ভিন্ন অংশে বিভক্ত করেছে: <br />
             <div className="">
             <li>Core DOM - standard model for all document types</li>
             <li>XML DOM - standard model for XML documents</li>
