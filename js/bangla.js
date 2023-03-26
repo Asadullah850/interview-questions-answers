@@ -65,7 +65,15 @@ function qusAndAnsArray (){
             <li>HTML DOM - standard model for HTML documents</li>
             </div>
             `},
-        {question:'jk1', answer1:``},
+        {question:'DOM থেকে একটি element পেতে পারি কি কি উপায়ে', answer1:`
+        যে সকল উপায়ে আমরা DOM থেকে একটি element পেতে পারি:
+        <li type="square">getElementById – search element by element_id</li>
+         <li type="square">getElementsByTagName – search element by tag name (e.g., span, div)</li>
+         <li type="square">getElementsByClassName – search element by class name.</li>
+         <li type="square">getElementsByName – search element by name attribute</li>
+         <li type="square">document.querySelector(".example/#example")</li>
+         <li type="square">document.querySelectorAll(".example/#example")</li>
+        `},
     ];
     return storeQusAndAns
 }
